@@ -1,33 +1,30 @@
-#SAXXPORT
+#Saxxport tool
+*Saxxport is a bash and python based tool to convert any ROM for your device all you need is the base ROM zip and port ROM zip file + this tool can also build a flashable rom zip using vendor system and boot img file + you can build system or vendor gsi from zip file of any rom.*
 
-SAXXPORT is a small bash script to generate flashable roms from system and vendor images.
-
-###Requirements
-```
-system.img vendor.img and boot.img only.
-```
+##Features:
+*saxxrom2rom:* Port any rom to your device in a click just provide base rom and port rom zip files.
+*saxximg2rom: *Build a flashable/bootable rom zip file using system,vendor and boot img files.
+*saxxzip2img: *Build a system or vendor gsi/img file from a zip file in a click.
 
 ###Usage
-###Android Termux
-
-Note: In adroid this tool require img fiels in sparse format you can use img factory app to do that.
+####Basic setup
 ```
-git clone "https://github.com/theuitown/saxxport"
-cd saxxport
-git checkout android_termux
-su bash saxxsetup.sh
-bash saxxport.sh
+git clone "https://github.com/theuitown/saxxport"
+cd saxxport
+sudo/su bash saxxsetup.sh
 ```
-Now it will ask for system,vendor,boot.img paths just give complete path and it will start the magic.
-
-###LINUX
-Note: Linux terminal don't need img in sparse format you have to give in raw format no need to do anything just extract the img from root and gibe to this tool.
+*Saxxrom2rom*
 ```
-git clone "https://github.com/theuitown/saxxport"
-cd saxxport
-bash saxxsetup.sh
-bash saxxport.sh
+./saxxrom2rom <base_rom_zip> <port_rom_zip>
 ```
-Now it will ask for system,vendor,boot.img paths just give complete path and it will start the magic.
-
-##### Thansk for using this tool please give me credit if you appreciate my work.
+*Saxximg2rom*
+```
+./saxximg2rom <system_img_path> <vendor_img_path> <boot_img_path>
+```
+*Saxxzip2img*
+```
+./saxxzip2img <zip_file_path> <output_gsi_name> <system/vendor_gsi>
+```
+Thanks for using this tool please give me credit if you appreciate my work.
+You can also donate me a cup of coffee.
+<a href="">Click here</a>
