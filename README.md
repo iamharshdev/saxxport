@@ -3,8 +3,10 @@
 
 ## Features:
 *saxxrom2rom:* Port any rom to your device in a click just provide base rom and port rom zip files.
-*saxximg2rom: *Build a flashable/bootable rom zip file using system,vendor and boot img files.
-*saxxzip2img: *Build a system or vendor gsi/img file from a zip file in a click.
+
+*saxximg2rom:* Build a flashable/bootable rom zip file using system,vendor and boot img files.
+
+*saxxzip2img:* Build a system or vendor gsi/img file from a zip file in a click.
 
 ### Usage
 ### Basic setup
