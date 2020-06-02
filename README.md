@@ -7,8 +7,7 @@
 *saxxzip2img: *Build a system or vendor gsi/img file from a zip file in a click.
 
 ### Usage
-<br>
-#### Basic setup
+### Basic setup
 
 ```
 git clone "https://github.com/theuitown/saxxport"
