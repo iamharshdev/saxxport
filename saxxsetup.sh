@@ -22,7 +22,5 @@ if [ $(dpkg-query -W -f='${Status}' git 2>/dev/null | grep -c "ok installed") -e
 then
     pkg install --force-yes --yes git;
 fi
-rm -rf output
-apt-get update && apt-get upgrade
 
-git clone https://github.com/xpirt/img2sdat.git
+apt-get update && apt-get upgrade
