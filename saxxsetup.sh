@@ -22,4 +22,8 @@ if [ $(dapt-query -W -f='${Status}' git 2>/dev/null | grep -c "ok installed") -e
 then
     apt install --force-yes --yes git;
 fi
+if [ $(dapt-query -W -f='${Status}' img2simg 2>/dev/null | grep -c "ok installed") -eq 0 ];
+then
+    apt install --force-yes --yes img2simg;
+fi
 apt-get update && apt-get upgrade
