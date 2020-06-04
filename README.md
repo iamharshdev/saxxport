@@ -19,21 +19,19 @@ sudo/su bash saxxsetup.sh
 
 *Saxxrom2rom*
 ```
-./saxxrom2rom <base_rom_zip> <port_rom_zip>
+./saxxrom2rom.sh <base_rom_zip> <port_rom_zip>
 ```
 
 *Saxximg2rom*
 
 ```
-./saxximg2rom <system_img_path> <vendor_img_path> <boot_img_path>
+./saxximg2rom.sh <system_img_path> <vendor_img_path> <boot_img_path>
 ```
 
 *Saxxzip2img*
 
 ```
-./saxxzip2img <zip_file_path> <output_gsi_name> <system/vendor_gsi>
+./saxxzip2img.sh <zip_file_path> <output_gsi_name> <system/vendor_gsi>
 ```
 
 Thanks for using this tool please give me credit if you appreciate my work.
-You can also donate me a cup of coffee.
-<a href="">Click here</a>
